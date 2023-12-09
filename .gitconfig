@@ -1,0 +1,13 @@
+[user]
+	email = myemail@email.com
+	name = FirstName LastName
+[alias]
+	s = status
+	sw = switch
+	pog = push origin
+	pug = pull origin
+	cob = checkout -b
+	chomp = commit -m
+	au = add -u
+	poggers = pog main # Only use if changes are very pog
+        reel = reset HEAD~1 --soft # 'reels back' the last commit i.e. undoes last commit without losing changes (if not pushed yet)
