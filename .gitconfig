@@ -13,3 +13,5 @@
         reel = reset HEAD~1 --soft # 'reels back' the last commit i.e. undoes last commit without losing changes (if not pushed yet)
 	diffor = diff origin/main # diffORigin but sounds like differ, only works if remote master branch is named main
 	rtc = "!f() { git commit -m\"Retriggering checks\" --allow-empty && git push ;}; f" # reruns GitHub PR checks, credit: https://stackoverflow.com/a/52412240
+[core]
+	editor = vim
