@@ -20,5 +20,6 @@
         # save in case you break it removing all those print stmts :)
         # Bonus points if you throw your hands up and say "score!"
 	score = "!git stash store \"$(git stash create)\""
+	vd = difftool --tool=vimdiff -y
 [core]
 	editor = vim
